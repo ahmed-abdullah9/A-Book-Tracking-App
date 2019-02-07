@@ -7,10 +7,14 @@
     "react-router-dom": "^4.2.2"
   },
   "devDependencies": {
-    "react-scripts": "1.1.4"
+    "gh-pages": "^2.0.1",
+    "react-scripts": "1.1.4",
+    "homepage":"http://github.com/ahmed-abdullah9/A-Book-Tracking-App"
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
