@@ -9,7 +9,7 @@
   "devDependencies": {
     "gh-pages": "^2.0.1",
     "react-scripts": "1.1.4",
-    "homepage":"http://ahmed-abdullah9.github.io/A-Book-Tracking-App"
+    "homepage":"http://ahmed-abdullah9.github.io/A-Book-Tracking-App/home"
   },
   "scripts": {
     "start": "react-scripts start",
