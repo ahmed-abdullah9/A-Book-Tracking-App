@@ -2,7 +2,7 @@
   "name": "A-Book-Tracking-App",
   "version": "0.1.0",
   "private": false,
-  "homepage":"http://ahmed-abdullah9.github.io/A-Book-Tracking-App/home",
+  "homepage": "http://ahmed-abdullah9.github.io/A-Book-Tracking-App/home",
   "dependencies": {
     "form-serialize": "^0.7.2",
     "prop-types": "^15.6.1",
@@ -15,9 +15,9 @@
     "react-scripts": "1.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
